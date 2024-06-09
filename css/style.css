@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #cfcdcd;
+    height: 100vh;
+    
+}
+
+.box{
+    height: 400px;
+    width: 300px;
+    border: 2px solid rgb(117, 115, 114);
+    border-radius: 20px;
+    display: none; 
+    flex-direction: column;
+    padding: 50px;
+    row-gap: 30px;
+}
+
+
+.box input,button{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    background: transparent;
+    border: 1px solid white;
+    color: black;
+  
+
+}
+.input{
+    position: relative;
+}
+.errorField{
+    color: red;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transform: translateY(3px);
+}
+
+
+.box1{
+    background: #f99696;
+    display: flex;
+}
+.box2{
+    background: #cfe777;
+}
+.box3{
+    background: #38d9d4;
+}
+.box4{
+    background: #ff7070;
+}
+.box5{
+    background: #686a0a;
+}
